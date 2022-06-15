@@ -1,0 +1,26 @@
+.taskFormContainer{
+    width: 100%;
+    padding: 5px;
+}
+
+.taskFormContainer form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .taskFormContainer form .submitTaskButton{
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 600;
+  }
+
+  .showDragBox{width: 100px;
+    display: block;
+height: 100px;
+background-color: yellow;}
+.hideDragBox{display: none;}
+
+
+.showDragBox:hover{background-color: red;}

@@ -1,0 +1,21 @@
+.signUpFormContainer {
+  width: 100%;
+  padding: 5px;
+}
+
+.signUpFormContainer form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.signUpFormContainer form .submitSignupbutton {
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.redBorder{border: 1px solid red;}
+.redBorder:focus{border: 1px solid red!important;
+box-shadow: none!important;}
